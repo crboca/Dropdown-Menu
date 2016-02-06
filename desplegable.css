@@ -1,0 +1,50 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	top: 0px;
+	background-color: #575453;
+}
+
+a {
+	text-decoration: none;
+	color: #B5A597;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	margin: 0;
+}
+
+li{
+	color: #B5A597;
+	display: inline-block;
+	padding: 20px;
+	vertical-align: top;
+}
+
+.submenu li{
+	padding: 0;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.submenu li:hover {
+	text-decoration: underline;
+}
+
+.submenu {
+	display: none;
+
+}
+
+.works:hover .submenu {
+	display: block;
+}
+
